@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c3f6fe"
+    tools:context="com.example.ashra.banglahealthtips.tips_3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/tips3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="লো প্রেসারের জটিল ছয় লক্ষণ  : \n
+
+হাইপোটেনশনকে বলা হয় লো ব্লাড প্রেশার (নিম্ন রক্তচাপ)। দেহে রক্ত কম পরিবাহিত হলে নিম্ন রক্তচাপের সমস্যা হয়। নিম্ন রক্তচাপ থেকে কখনো কখনো স্ট্রোক,হার্ট অ্যাটাক ও কিডনি ফেইলিউরের মতো ঘটনা ঘটে।তাই কেবল উচ্চ রক্তচাপ নয়, নিম্ন রক্তচাপ সম্বন্ধেও সচেতন হওয়া জরুরি। কিছু লক্ষণ রয়েছে যেগুলো দেখলে বোঝা যাবে নিম্ন রক্তচাপ হয়েছে।এগুলো দেখা দিলে দ্রুত চিকিৎসকের পরামর্শ নিন।  \n
+স্বাস্থ্য বিষয়ক ওয়েবসাইট এনএইচএস চয়েজ এবং জীবনধারাবিষয়ক ওয়েবসাইট বোল্ডস্কাই জানিয়েছে নিম্ন রক্তচাপের লক্ষণগুলোর কথা।  \n
+১. মাথা ঘোরা \n
+নিম্ন রক্তচাপের একটি একটি প্রচলিত লক্ষণ হচ্ছে মাথা ঘোরা। অনেকক্ষণ বসে থাকার পর উঠে দাঁড়ালে বা অনেকক্ষণ দাঁড়িয়ে  থাকার পর বসলে এই সমস্যা হতে পারে। একটানা কয়েকদিন এমন সমস্যা হলে চিকিৎসকের পরামর্শ নিন। \n
+২. মূর্ছা যাওয়া \n
+মস্তিস্কের রক্ত চলাচল কমে গেলে নিম্ন রক্তচাপ হয়।এতে রোগীরা মূর্ছা যায়। এমন হলে অবশ্যই চিকিৎসকের পরামর্শ নিন। \n
+৩. চোখে ঝাপসা দেখা  \n
+শরীরে রক্ত চলাচল কমে যাওয়ার কারণে বিভিন্ন অঙ্গে ভালোভাবে অক্সিজেন এবং পুষ্টি পৌঁছায় না। এটি চোখের ওপর প্রভাব ফেলে। এতে চোখে ঝাপসা দেখার সমস্যা হয়।  \n
+৪. বুক ধরফর করা  \n
+রক্তচাপ কমে গেলে হৃদপিণ্ড সবচেয়ে বেশি আক্রান্ত হয়। এতে অনিয়মিত হৃদস্পন্দনের সমস্যা হয়, বুক ধরফর করে। \n
+৫. ম্লান ত্বক \n
+ত্বক ম্নান হয়ে যাওয়া নিম্ন রক্তচাপের আরেকটি লক্ষণ। রক্তচাপ কমে গেলে ত্বক হলুদ অথবা ম্নান হয়ে যায়। \n
+৬. ঘাম হয়  \n
+রক্তচাপ কমে গেলে শরীরে অতিরিক্ত ঘাম হতে পারে। শরীরের পানি ঘামের মাধ্যমে বেরিয়ে যেতে থাকে। এমন হলে রোগীকে দ্রুত চিকিৎসকের কাছে নেওয়া প্রয়োজন। এ ছাড়া বমি হওয়া এবং শারীরিক দুর্বলতাও রক্তচাপ কমে যাওয়ার লক্ষণ।  \n
+"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

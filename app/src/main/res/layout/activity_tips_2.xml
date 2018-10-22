@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbc1f0"
+    tools:context="com.example.ashra.banglahealthtips.Tips_2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv2"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:textSize="20dp"
+                android:text="শরীরের জন্য প্রয়োজনীয় পুষ্টি উপাদানের সবগুলোই পাওয়া যায় বিভিন্ন খাবার থেকে। জেনে নিন প্রতিদিনের খাদ্য তালিকায় যেসব পুষ্টি উপাদান অবশ্যই রাখবেন সেগুলো কী কী-
+
+প্রোটিন :
+শরীরের কোষ, মাংসপেশি ও টিস্যু গঠনের জন্য প্রোটিন খুবই জরুরি। ডিম, মাংস, বাদাম, ডাল, মাছ ও দুধজাতীয় খাবার প্রোটিনের উৎস। তাই এ ধরনের খাবার খান প্রতিদিন।
+ভিটামিন ডি :
+শক্তিশালী হাড়ের জন্য প্রতিদিনের খাদ্য তালিকায় চাই ভিটামিন ডি। দুধ, ডিম, টুনা মাছের পাশাপাশি রোদ থেকেপ পাওয়া যায় প্রয়োজনীয় ভিটামিন ডি।
+আয়রন :
+শরীরের জন্য আয়রন অত্যন্ত গুরুত্বপূর্ণ একটি উপাদান। আয়রনের অভাব হলে শরীরের অক্সিজেন সাপ্লাই থেকে শুরু করে বিভিন্ন ধরনের অসুস্থতা দেখা দিতে পারে। ডাল, কলিজা, ডিমের কুসুম, পালং শাক, ওটমিল, মাছ, সিমের বিচি, মুরগির মাংস, তরমুজ থেকে পাওয়া যায় প্রয়োজনীয় আয়রন।
+ভিটামিন সি :
+রোগ প্রতিরোধ ক্ষমতা বাড়াতে সাহায্য করে ভিটামিন সি। এছাড়া তারুণ্য ধরে রাখতেও প্রতিদিনের খাদ্য তালিকায় রাখা যায় ভিটামিন সিযুক্ত খাবার। সবুজ শাকসবজি খেলে পূরণ হবে ভিটামিন সি-এর চাহিদা।
+চর্বি :
+অনেকে মনে করেন চর্বিজাতীয় খাবার এড়িয়ে চললেই দূরে থাকা যায় বিভিন্ন রোগ থেকে। তবে স্বাস্থ্যকর ফ্যাট সুস্থতার জন্য প্রয়োজনীয়।
+কার্বোহাইড্রেট :
+প্রয়োজনীয় ক্যালোরির একটি বড় অংশ জুড়ে কার্বোহাইড্রেট রয়েছে। মিষ্টি ও আঁশজাতীয় খাবার থেকে পাওয়া যায় কার্বোহাইড্রেট।
+ভিটামিন বি :
+খাবার হজমে সাহায্য করে ভিটামিন ডি। পাশাপাশি সুস্থ ও কর্মক্ষম থাকার জন্যও এই পুষ্টি উপাদানটি জরুরি। থাইমিন, ফলিক অ্যাসিড, রিবফ্লভিন, বায়োটিন ভিটামিন বি১২, বি৬ ও বি৫ সমৃদ্ধ খাবার চাই প্রতিদিন। ডিম, দুধ, মাংস, কলিজা থেকে পাবেন প্রয়োজনীয় ভিটামিন বি।
+আমাদের শরীরের ৬০ ভাগই পানি। তাই প্রতিদিন যথেষ্ট পানি পান করার বিকল্প নেই।"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

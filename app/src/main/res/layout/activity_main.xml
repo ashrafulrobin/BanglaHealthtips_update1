@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7b72b6"
+    tools:context="com.example.ashra.banglahealthtips.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+<Button
+    android:id="@+id/btn1"
+    android:text="ব্যায়াম"
+    android:textColorHighlight="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="পুষ্টিকর খাবার"
+                android:textColorHighlight="@color/colorPrimaryDark"
+
+                />
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="লো প্রেসার"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <Button
+                android:id="@+id/btn4"
+                android:text="হাই প্রেসার"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <Button
+                android:id="@+id/btn5"
+                android:text="নিয়মিত ঘুম"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

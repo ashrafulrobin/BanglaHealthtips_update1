@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdbdc6"
+    tools:context="com.example.ashra.banglahealthtips.Tips_4">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/tips4"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text=" যখন কোনো ব্যক্তির রক্তের চাপ স্বাভাবিকের চেয়ে ঊর্ধ্বে থাকে তখন সেটাকে চিকিৎসা বিজ্ঞানের ভাষায় বলা হয় উচ্চরক্তচাপ। হাইপারটেনশনকে প্রাথমিক (আবশ্যিক) হাইপারটেনশন অথবা গৌণ হাইপারটেনশনে শ্রেণীভুক্ত করা হয়। প্রায় ৯০–৯৫% ভাগ ক্ষেত্রেই ‘প্রাথমিক হাইপারটেনশন’ বলে চিহ্নিত করা হয়। উচ্চ রক্ত চাপের কোন উল্লেখ যোগ্য কারণ এখনো চিকিৎসা-শাস্ত্রে খুঁজে পাওয়া যায়নি। এমনকোন সুনির্দিষ্ট বিন্দু নেই যখন রক্ত চাপকে ‘উচ্চ’ বলে বিবেচনা করা যায়।
+
+উভয় বাহুতে যদি কোন ব্যক্তির রক্তচাপ ১৪০/৯০ (চাপের একটি একক) কিংবা তার উপরে থাকে তাহলে তার ‘উচ্চ রক্তচাপ’ বলা যেতে পারে। একটি সাম্প্রতিক প্রতিবেদনে, ১৩৯/৮৯ থেকে ১২০/৮০ রক্তচাপকে সংজ্ঞায়িত করেছে প্রিহাইপারটেনশন বলে। প্রিহাইপারটেনশন একটি রোগ নয়, কিন্তু এতে ব্যক্তির উচ্চরক্তচাপ বিকশিত করার একটি যথেষ্ট সুযোগ রয়েছে। ডায়াবেটিস মেলিটাস অথবা কিডনী রোগীদের ক্ষেত্রে গবেষনায় দেখা গেছে,  ১৩০/৮০ এর অধিক রক্তচাপকে ঝুঁকি হিসেবে বিবেচনা করা উচিত। এবং দ্রুত চিকিৎসার আওতায় আনা উচিৎ।"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
